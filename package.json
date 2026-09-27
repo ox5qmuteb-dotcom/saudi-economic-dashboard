@@ -1,0 +1,13 @@
+{
+  "name": "saudi-economic-dashboard",
+  "version": "1.0.0",
+  "description": "Economic dashboard comparing Saudi Arabia with major world economies using public data and bilingual UI.",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "lint": "node --check src/main.js src/data.js src/transform.js src/ui.js scripts/build.js scripts/serve.js tests/transform.test.js",
+    "build": "node scripts/build.js",
+    "test": "node --test"
+  },
+  "license": "ISC"
+}
